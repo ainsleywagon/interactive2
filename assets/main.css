@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic);
+
+body {
+  background-color: Seashell;
+  font-family: Karla;
+  padding-left: 20px;
+  text-align: center;
+}
+
+body h1 {
+  color: AquaMarine;
+}
+
+body h2 {
+  color: Gray;
+}
