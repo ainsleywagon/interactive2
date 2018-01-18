@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic);
 /* reset padding and margins */
 
 * {
@@ -6,7 +7,7 @@
 }
 
 body {
-	font-family: helvetica, arial, sans-serif;
+	font-family: Karla, helvetica, arial, sans-serif;
 }
 
 /* container */
@@ -19,20 +20,16 @@ body {
 
 .item {
 	height: 300px;
-	width: 300px;
-	background: blue;
-	color: yellow;
-
-	margin: 10px;
-
-	/* comment out 'float: left;' to have items stack in a single column */
-	float: left; 
-
-	/* uncomment this to get CSS transitions (conflicts with jQuery) */
-	/* transition: all 500ms ease; */
+	width: 50%;
+	background: PapayaWhip;
+	color: gray;
+	float: left;
+	transition: all 500ms ease;
+	text-align: center;
+	line-height: 300px;
 }
 
-/* example buttons */
+/* button-1 */
 
 #button-1:hover {
 	transform: rotate(90deg) scale(1.5);
@@ -40,19 +37,20 @@ body {
 }
 
 #button-1:active {
-	background: pink;
+	background: aquamarine;
 	opacity: 1;
 }
 
-/* example buttons */
+/* button-2 */
 
 #button-2::after {
 	content: 'this is added after the content inside the button';
 	color: white;
 }
 
-
 #button-2:hover::after {
 	content: 'this text changes on hover';
 	color: red;
 }
+
+/* button-3 */
