@@ -44,7 +44,7 @@ body {
 /* button-2 */
 
 #button-2::after {
-	content: 'this is added after the content inside the button';
+	content: 'test content';
 	color: white;
 }
 
